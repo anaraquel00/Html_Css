@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Liter&family=Merienda&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sriracha&family=Tektur:wght@400..900&display=swap');
+
+body{
+    background-image: url(/imagens/laptop-desk-table-coffee.jpg);
+    background-position-x: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    text-shadow: 5px solid black;
+}
+h1{
+    font-family:Merienda;
+    color: white;
+    text-shadow: black 9px;
+}
+h2{
+    font-family:Merienda;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+h3{
+    font-family:Merienda;
+    color: rgb(216, 189, 189);
+}
+div.X{
+    border: 5px solid white;
+width: 504px;
+height: 800x;
+border-radius: 9px;
+}
+div.linkedin{
+border: 5px solid white;
+width: 504px;
+height: 814px;
+border-radius: 9px;
+}
+div.github{
+    border: 5px solid white;
+    width: 300px;
+    height: 45vh;
+    border-radius: 9px;
+}
+div.cv{
+    
+    width: 90%;
+    height: 90%;
+    border-radius: 9px;
+    margin-top: 1.6em; margin-bottom: 0.9em; 
+    overflow: hidden;
+        
+}
+footer > p{
+    font-family:Merienda;
+    color: white;
+}
+footer > p:hover{
+    background-color: white;
+    padding: 10px 10px;
+    width: 775px;
+    height: 15px;
+    border-radius: 8px;
+}
