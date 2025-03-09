@@ -1,63 +1,59 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Liter&family=Merienda&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sriracha&family=Tektur:wght@400..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Liter&family=Merienda&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Oswald:wght@200..700&family=Pacifico&family=Passion+One:wght@400;700;900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sriracha&family=Tektur:wght@400..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Pacifico';
+}
+
+html,body{
+    height: 100vh; /* Altura total do navegador*/
+    width: 100vw; /* Largura total*/
+    background-color: black;
+}
 body{
-    background-image: url(/imagens/laptop-desk-table-coffee.jpg);
-    background-position-x: center;
-    background-size: 100%;
-    background-attachment: fixed;
-    text-shadow: 5px solid black;
+    background:url(/imagens/fundo-madeira.jpg)no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed; /*Para a imagem nao rolar na tela*/
 }
-h1{
-    font-family:Merienda;
-    color: white;
-    text-shadow: black 9px;
-}
-h2{
-    font-family:Merienda;
-    font-size: 1.5em;
-    color: white;
-    text-align: center;
-}
-h3{
-    font-family:Merienda;
-    color: rgb(216, 189, 189);
-}
-div.X{
-    border: 5px solid white;
-width: 504px;
-height: 800x;
-border-radius: 9px;
-}
-div.linkedin{
-border: 5px solid white;
-width: 504px;
-height: 814px;
-border-radius: 9px;
-}
-div.github{
-    border: 5px solid white;
-    width: 300px;
-    height: 45vh;
-    border-radius: 9px;
-}
-div.cv{
+
+main{
+    height: 100vh;
+    position: relative;
     
-    width: 90%;
-    height: 90%;
-    border-radius: 9px;
-    margin-top: 1.6em; margin-bottom: 0.9em; 
-    overflow: hidden;
-        
 }
-footer > p{
-    font-family:Merienda;
-    color: white;
+section#telefone{
+    position: absolute;  /*para centralizar na tela */
+    top: 50%; /* top e left vao colocar a ponta de cima e da esquerda na posiçao indicada */
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 627px;
+    width: 311px;
+    
+    background:url(/imagens/frame-iphone.png)no-repeat;
 }
-footer > p:hover{
-    background-color: white;
-    padding: 10px 10px;
-    width: 775px;
-    height: 15px;
-    border-radius: 8px;
+iframe#tela{
+    position: relative;
+    top: 81px;
+    left: 22px;
+    width: 267px;
+    height: 469px;
+}
+section#redes-sociais{
+    text-align: left;
+}
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px black;
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.555);
+    transform:translate(-3px,-3px);
+    box-shadow: 5px,5px,10px rgba(0, 0, 0, 0.411);
+    transition: transform .5s;
 }
