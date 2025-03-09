@@ -1,11 +1,10 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Liter&family=Merienda&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Oswald:wght@200..700&family=Pacifico&family=Passion+One:wght@400;700;900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sriracha&family=Tektur:wght@400..900&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Pacifico';
+   
 }
 
 html,body{
