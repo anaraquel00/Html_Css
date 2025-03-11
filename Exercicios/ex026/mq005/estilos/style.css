@@ -32,11 +32,9 @@ span#burger:hover{
     background-color: blueviolet;
 }
 menu {
-    display: none;
-   background-color: rgb(105, 110, 158);
-   
-   
-        
+display: none;
+background-color: rgb(105, 110, 158);
+
 }
 menu >ul> li{
    display: inline-block;
@@ -72,7 +70,8 @@ menu >ul> li> a:hover{
     background-color: blueviolet;
 }
 main{
-    width: 90vw;
+    width: 50vw;
+    height: 80vh;
     background-color: white;
     margin: auto;
     margin-top: 5px;
@@ -85,7 +84,9 @@ article > h2{
     
 }
 article> p {
+  
     text-align: justify;
-    margin-bottom: 20px;
-    text-indent: 20px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+   
 }

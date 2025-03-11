@@ -23,4 +23,9 @@ display: inline-block;
 main{
     width: 768px;
     
+    
+}
+article{
+    width: 30vw;
+    height: 90vh;
 }
