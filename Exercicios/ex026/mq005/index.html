@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho">
+    <header>
+<h1>Meu Site</h1>
+<span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+<menu id="itens">
+    <ul>
+        <li><a href="#">Opçao1</a></li>
+        <li><a href="#">Opçao2</a></li>
+        <li><a href="#">Opçao3</a></li>
+        <li><a href="#">Opçao4</a></li>
+        <li><a href="#">Opçao5</a></li>
+        
+    </ul>
+</menu>
+    </header>
+    <main>
+<article>
+<h2>Testando media queries</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae necessitatibus eaque placeat praesentium. Assumenda odit tempore eum culpa nobis cumque iste, ad, possimus nemo ab ducimus earum tempora rem nulla?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque quidem aliquam nisi nulla rerum nihil, iusto natus facilis quasi recusandae harum, consequuntur ipsa doloremque. Quibusdam itaque magnam laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, reiciendis. Iure ut aperiam nihil saepe officiis, pariatur adipisci exercitationem consequuntur ex possimus natus cupiditate esse explicabo amet ipsa vel. Doloribus!</rerum></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis architecto nesciunt dolores animi. Debitis temporibus totam tempora, sed unde ducimus a pariatur eos enim culpa fuga magnam velit laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sed nemo perferendis iste sapiente error laboriosam enim. Laudantium libero quam consequatur iste tempore optio voluptatem accusamus, quia, est, dolorem sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero impedit, saepe cumque corrupti, nihil molestiae incidunt voluptates dolore temporibus deleniti nostrum, laudantium quae aspernatur earum? Eius tempore nemo itaque iste.</p>
+</article>
+    </main>
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display ='block'
+            }else{
+                itens.style.display = 'none'
+            }
+        }
+        function clickMenu(){
+       if(itens.style.display == 'block'){
+        itens.style.display = 'none'
+       } else{
+        itens.style.display = 'block'
+       }
+        }
+    </script>
+</body>
+</html>
