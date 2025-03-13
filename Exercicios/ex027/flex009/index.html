@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner{
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: nowrap;
+        }
+        div.itens{
+            background-color:lightblue;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+      <div class="itens">A</div>
+      <div class="itens">Outro conteudo</div>
+      <div class="itens">C</div>
+      <div class="itens">Conteudo um pouco maior</div>
+      <div class="itens">E</div>
+      <div class="itens">Conteudo maior ainda e vai ocupar mais espaço</div>
+      <div class="itens">G</div>
+    </div>
+</body>
+</html>
