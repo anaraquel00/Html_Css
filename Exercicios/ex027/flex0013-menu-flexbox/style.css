@@ -20,7 +20,7 @@ header{
     padding: 10px;
     display: flex;
     flex-flow: row wrap;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
 
 }
@@ -29,35 +29,30 @@ header> h1{
     color: rgb(231, 232, 241);
     text-shadow: 4px 3px 2px black;
     text-align: center;
-    width: 100vw;
-    height: 7vh;
+    
     border-radius: 5px;
-    flex: 0 0 200px;
+    
 }
 header > nav{
     
-    width: 100vw;
-    height: 8vh;
+   
     border-radius: 5px;
-    margin: 2px;
-    padding-bottom: 10px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
       
 }
 header >nav >a{
     background-color: rgb(136, 136, 187);
     text-decoration: none;
     padding: 5px;
-    padding-top: 10px;
-    padding-bottom: 20px ;
     margin: 3px;
     border-radius: 3px;
     text-align: center;
     color: white;
     font-weight: bold;
     text-shadow: 2px 2px 2px rgb(34, 28, 117);
-    flex: 1 1 100px;
+    
 
 }
 header >nav >a:hover{
@@ -70,13 +65,11 @@ main{
     text-decoration: none;
     text-align: center;
     margin: 10px; /* A MARGEM DESCOLA/SEPARA A CAIXA DO HEADER!!!*/
-    width: 60vw;
+    width: 93vw;
     height: 80vh;
     background-color:white;
     padding: 25px;
     padding-top: 18px;
-
-    box-sizing: content-box;
     border-radius: 5px;
     box-shadow: 5px 5px 3px rgb(0, 0, 0);
 }
